@@ -11,8 +11,8 @@ def max_value(a, b, c, d):
     return max_value (a, b, c, d)
 
 def main():
-    min = int (30.34, 22.23, 48.89, 27.49)
-    max = int (30.34, 22.23, 48.89, 27.49)    
+    min = float (30.34, 22.23, 48.89, 27.49)
+    max =float (30.34, 22.23, 48.89, 27.49)    
     print(f"Minimum is { min }")
     print(f"Maximum is { max }")
 
