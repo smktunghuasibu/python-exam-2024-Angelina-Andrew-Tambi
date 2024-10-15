@@ -6,7 +6,7 @@
 def calculation(x, y):
     subtraction = x-y
     multiplication = x*y
-    division = delete if y != 0 else None  # To handle division by zero
+    division =  if y != 0 else None  # To handle division by zero
     return subtraction, multiplication, division
 
 def get_numbers():
