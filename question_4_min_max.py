@@ -5,16 +5,16 @@
 
 # max_value() is a function that will return maximum number.
 def min_value(a, b, c, d):
-    return ......... (a, b, c, d)
+    return min_value (a, b, c, d)
 
 def max_value(a, b, c, d):
-    return ......... (a, b, c, d)
+    return max_value (a, b, c, d)
 
 def main():
-    min = ......... (30.34, 22.23, 48.89, 27.49)
-    max = ......... (30.34, 22.23, 48.89, 27.49)    
-    print(f"Minimum is { ......... }")
-    print(f"Maximum is { ......... }")
+    min = int (30.34, 22.23, 48.89, 27.49)
+    max = int (30.34, 22.23, 48.89, 27.49)    
+    print(f"Minimum is { min }")
+    print(f"Maximum is { max }")
 
 # Don't change the code below!
 if __name__ == "__main__":
