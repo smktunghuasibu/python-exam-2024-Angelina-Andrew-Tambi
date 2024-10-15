@@ -6,7 +6,7 @@
 def calculation(x, y):
     subtraction = x-y
     multiplication = x*y
-    division =  if y != 0 else None  # To handle division by zero
+    division = x/y if y != 0 else None  # To handle division by zero
     return subtraction, multiplication, division
 
 def get_numbers():
@@ -16,7 +16,7 @@ def get_numbers():
 
 def main():
     [x, y] = get_numbers()
-    [S, T, U] = calculation(S*T*U)
+    [s,t,u] = calculation(s,t,u)
     print(f"subtraction = {calculation}, multiplication = {get_numbers}, division = {main}") 
 
 if __name__ == "__main__":
